@@ -1,0 +1,157 @@
+{
+	"info": {
+		"name": "restful-java-api",
+		"_postman_id": "002c09a3-72d3-4329-be40-8c1847924cc3",
+		"description": "REACT and MOBILE Developers: use this API to access the end-points during your Challenge.\nJAVA Developers: this API must be implemented at least as is.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "api",
+			"description": "Folder for api",
+			"item": [
+				{
+					"name": "",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/orders/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"orders",
+								"1"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id\": 0,\n  \"date\": \"2018-03-18T17:03:25.578Z\",\n  \"customerId\": 5,\n  \"deliveryAddress\": \"Rua Xulambis\",\n  \"contact\": \"2312323423\",\n  \"storeId\": 1,\n  \"orderItems\": [\n    {\n      \"id\": 1,\n      \"productId\": 10,\n      \"product\": {\n        \"id\": 0,\n        \"storeId\": 0,\n        \"name\": \"string\",\n        \"description\": \"string\",\n        \"price\": 0\n      },\n      \"price\": 0,\n      \"quantity\": 0,\n      \"total\": 0\n    }\n  ],\n  \"total\": 0,\n  \"status\": \"string\",\n  \"lastUpdate\": \"2018-03-18T17:03:25.578Z\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/orders",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"orders"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/v1/orders",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id\": 0,\n  \"date\": \"2018-03-18T17:03:25.578Z\",\n  \"customerId\": 5,\n  \"deliveryAddress\": \"Rua Xulambis\",\n  \"contact\": \"2312323423\",\n  \"storeId\": 1,\n  \"orderItems\": [\n    {\n      \"id\": 1,\n      \"productId\": 10,\n      \"product\": {\n        \"id\": 0,\n        \"storeId\": 0,\n        \"name\": \"string\",\n        \"description\": \"string\",\n        \"price\": 0\n      },\n      \"price\": 0,\n      \"quantity\": 0,\n      \"total\": 0\n    }\n  ],\n  \"total\": 0,\n  \"status\": \"string\",\n  \"lastUpdate\": \"2018-03-18T17:03:25.578Z\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/orders",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"orders"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"disabled": true
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/products/search/pizza",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"products",
+								"search",
+								"pizza"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/products/10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"products",
+								"10"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
