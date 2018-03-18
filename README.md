@@ -28,5 +28,5 @@ https://github.com/pett4j/api-std/blob/master/restful-java-api.postman_collectio
 
 I used only one project to solve the problem, but it can be splitted in other 3 microservices.
 
-A API Gateway in front of API is a good option to easy scale and upgrade the project.
+An API Gateway in front of API is a good option to easy scale and upgrade the project.
 
